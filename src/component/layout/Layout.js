@@ -12,6 +12,7 @@ export default class Layout extends React.Component {
                 <div className="card2 grid-item">{this.props.income}</div>
                 <div className="card3 grid-item">{this.props.expense}</div>
                 <div className="chart-grid-item grid-item">{this.props.chart}</div>
+                <div className="transaction-grid-item grid-itemm">{this.props.transaction}</div>
             </div>
         );
     }

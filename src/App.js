@@ -7,6 +7,7 @@ import Chart from './component/chart/Chart'
 import TableTransaction from './component/transaction/TableTransaction'
 import Transaction from './component/transaction/Transaction';
 import Layout from './component/layout/Layout'
+import AddNewTransaction from './component/button/AddNewTransaction'
 
 let json = [
   {
@@ -59,6 +60,7 @@ function App() {
         expense={expense}
         user={user}
         chart={chart}
+        button={<AddNewTransaction />}
       />
       {table}
     </div>

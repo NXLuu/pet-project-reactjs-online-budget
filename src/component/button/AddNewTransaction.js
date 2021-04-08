@@ -7,7 +7,9 @@ export default class AddNewTransaction extends React.Component {
         
 
         return(
-            
+            <div className="card">
+                <div class="button-transaction"></div>
+            </div>
         );
     }
 }

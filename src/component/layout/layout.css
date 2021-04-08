@@ -43,3 +43,8 @@
     grid-column: 1/2;
     grid-row:3/4;
 }
+
+.grid-container .transaction-grid-item {
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
