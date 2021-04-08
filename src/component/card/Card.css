@@ -1,0 +1,85 @@
+﻿.card {
+    position: relative;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: row;
+    align-items: center;
+    height: 100%;
+    word-wrap: break-word;
+    background-color: #2a3042;
+    background-clip: border-box;
+    border: 0 solid #32394e;
+    border-radius: .25rem;
+    padding: 15px;
+}
+
+.blue {
+    color: rgb(83, 83, 255);
+}
+
+.green {
+    color: rgb(4, 231, 4);
+}
+.red {
+    color: rgb(255, 62, 62);
+}
+
+
+.blue-background {
+    background-color: rgba(0, 0, 255, 0.637);
+
+}
+.green-background {
+    background-color: rgba(0, 128, 0, 0.774);
+}
+
+.red-background {
+    background-color: rgba(255, 0, 0, 0.623);
+}
+.card .flex-item {
+    flex-grow: 4;
+}
+.card .title {
+    color: #c3cbe4!important;
+    margin: 0;
+    margin-bottom: 16px;
+    font-size: 13px;
+}
+
+.card .money {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.card i {
+    font-size: 20px;
+}
+
+
+.card .round::before {
+    content: "";
+    position: absolute;
+    width: 8px;
+    height: 75px;
+    background-color: hsla(0,0%,100%,.1);
+    left: 16px;
+    transform: rotate(32deg);
+    top: -26px;
+    transition: all .4s;
+}
+
+.card .round {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    position: relative; 
+    margin: 0 10px;
+    overflow: hidden;
+}
+
+.card .round .icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

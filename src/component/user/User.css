@@ -1,0 +1,94 @@
+﻿.flex-container {
+    display: flex;
+    height: 200px;
+    position: relative;
+}
+.user {
+    padding: 0;
+    width: 100%!important;
+    height: 100%;
+    display: block;
+}
+.user .user-avatar {
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    border: 5px solid black;
+   
+}
+
+.user .infor {
+    position: absolute;
+    min-width: 200px;
+    top: -20px;
+    left: 5%;
+}
+.header-user {
+    padding: 0;
+    background-color: rgb(52,64,107);
+    display: flex;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.header-user h5,h6 {
+    padding-left: 10px;
+    margin: 0;
+    font-size: 1rem;
+    color: rgb(85,110,230);
+}
+
+.header-user h6 {
+    font-size: 0.8rem;
+    margin-top: 5px;
+}
+.header-user .flex-item-user {
+    flex-grow: 1;
+    align-self: center;
+}
+img {
+    max-width: 40%;
+    height: 40%;
+    align-self: flex-end;
+}
+
+
+
+.flex-container .amount {
+    display: flex;
+    position: absolute;
+    right:0;
+    padding-right: 10px;
+    top:  50%;
+    transform: translateY(-50%);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-container .amount::before {
+    content: "";
+    width: 3px;
+    height: 100%;
+    background-color: rgb(21, 104, 228);
+    position: absolute;
+    /* transform:  */
+    left:-10px;
+    top:0;
+}
+
+.amount .title {
+    font-size: 1.2rem;
+    align-self: center;
+}
+
+.amount .money {
+    font-size: 1.5rem;
+}
+
+.chart {
+    height: 500px;
+    /* width: 700px; */
+    background-color: rgb(42,48,66);
+}
